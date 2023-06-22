@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 174, 202);
+  background-image: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.container {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.month {
+  background-color: red;
+  height: 50px;
+  color: white;
+  font-size: 2rem;
+}
+
+.day-name,
+.year {
+  font-size: 1.3rem;
+  opacity: 0.7;
+  padding-top: 10px;
+  margin-bottom: 35px;
+}
+.date {
+  font-weight: bold;
+  font-size: 4.3rem;
+  margin-bottom: 20px;
+}

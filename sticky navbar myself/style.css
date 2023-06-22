@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  height: 100vh;
+}
+h2 {
+  color: red;
+  font-family: cursive;
+}
+
+/* navbar */
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+.nav__right a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: gray;
+  font-size: 1.3rem;
+}
+.nav__right a:hover {
+  color: black;
+}
+/* header page */
+.page {
+  background-image: url('./item-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main part */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+/* js part */
+.nav-js {
+  background-color: black;
+  color: white;
+}

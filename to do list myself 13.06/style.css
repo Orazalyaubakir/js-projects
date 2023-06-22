@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 174, 202);
+  background-image: radial-gradient(
+    circle,
+    rgb(19, 238, 52) 0%,
+    rgb(2, 237, 206) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+input {
+  padding: 15px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border: none;
+  outline: none;
+  width: 350px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  padding: 10px;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.fa-check-square {
+  cursor: pointer;
+  color: rgb(5, 186, 5);
+  font-size: 1.4rem;
+}
+
+.fa-trash {
+  cursor: pointer;
+  color: red;
+  font-size: 1.4rem;
+}

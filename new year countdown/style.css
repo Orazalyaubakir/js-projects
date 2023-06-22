@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 174, 202);
+  background-image: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: cursive;
+}
+
+.year {
+  text-align: center;
+  font-size: 5rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  font-size: 2.2rem;
+  width: 100%;
+}
+
+.days {
+  color: red;
+}
+.hours {
+  color: blue;
+}
+.minutes {
+  color: green;
+}
+.seconds {
+  color: rgb(62, 45, 13);
+}

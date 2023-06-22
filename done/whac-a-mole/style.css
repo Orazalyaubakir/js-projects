@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  width: 460px;
+  height: 460px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+}
